@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="Viewport" content="width=devise-width, initial-scale=1" />
+        <title>e-commerce</title>
+        <style>style.css</style>
+    </head>
+    <body>
+       <div id="app">
+
+
+        <header id="header" role="banner">
+            <div class="header-inner">
+            <div class="brand" id="brand">E-Commerce</div>
+            <form id="searchForm" class="search" role="search" arial-label="Pencarian produk">
+                <label for="q" class="sr-only">Cari</label>
+                <input id="q" name="q" type="search" placeholder="Cari produk,toko,atau kategori" />
+                <button type="button" aria-label="Foto / scan" class="btn-icon" id="btn-camera">📷</button>
+                <button type="button" aria-label="keranjang" class="btn-icon" id="btn-cart">🛒</button>
+            </form>
+          </div>
+       </header>
+
+       <section id="quick-actions" aria-label="Aksi cepat">
+        <div class="quick-inner">
+            <button class="quick-card" id="quick-orders" type="button">Pesanan</button>
+            <button class="quick-card" id="quick-voucher" type="button">Voucher</button>
+            <button class="quick-card" id="quick-message" type="button">Pesan</button>    
+        </div>
+       </section>
+
+       <main id="main" role="main" aria-label="Daftar produk">
+        <section class="product-grid" id="products" aria-label="produk populer">
+
+            <article class="product-card" tabindex="0" aria-label="Produk 1">
+                <div class="product-thumb">
+                    <img scr="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/12/24/49242713-c425-4185-81cc-b432bb85a936.jpg?ect=4g" alt="Foto sepatu lari" />
+                </div>
+                <h3 class="product-title">Sepatu lari</h3>
+                <p class="harga">Rp 286.000</p>
+            </article>
+
+            <article class="product-card" tabindex="0" aria-label="Produk 2">
+                <div class="product-thumb">
+                    <img scr="https://down-id.img.susercontent.com/file/id-11134207-7r98s-lond2mp4sy24bd" alt="Foto parfum scarlett" />
+                </div>
+                <h3 class="product-title">Parfum</h3>
+                <p class="harga">Rp 62.000</p>
+            </article>
+
+            <article class="product-card" tabindex="0" aria-label="Produk 3">
+                <div class="product-thumb">
+                    <img scr="https://down-my.img.susercontent.com/file/id-11134207-7r98o-lkqjjygz17xu2f" alt="Foto body serum vaseline" />
+                </div>
+                <h3 class="product-title">Body serum</h3>
+                <p class="harga">Rp 44.000</p>
+            </article>
+
+            <article class="product-card" tabindex="0" aria-label="Produk 4">
+                <div class="product-thumb">
+                    <img scr="https://down-id.img.susercontent.com/file/id-11134207-7qul1-li9jzad8d12bdc" alt="Foto tas wanita" />
+                </div>
+                <h3 class="product-title">Tas wanita</h3>
+                <p class="harga">Rp 187.000</p>
+            </article>
+
+            <article class="product-card" tabindex="0" aria-label="Produk 5">
+                <div class="product-thumb">
+                    <img src="https://koreacosmeticsbn.com/cdn/shop/files/61c60528-5c3e-406c-9996-46103d0c7469_5000x.jpg?v=1734238750" alt="Lip cream focallure" />
+                    </div>
+                    <h3 class="product-title">Lip cream</h3>
+                    <p class="harga">Rp 52.000</p>
+                </article>
+        </section>
+       </main>
+     <footer class="bottom-nav">
+
+        <div class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Beranda</span>
+        </div>
+
+        <div class="nav-item">
+            <i class="fas fa-video"></i>
+            <span>Live</span>
+        </div>
+
+        <div class="nav-item">
+            <i class="fas fa-bell"></i>
+            <span>Notfikasi</span>
+        </div>
+
+        <div class="nav-item">
+            <i class="fas fa-user"></i>
+            <span>Saya</span>
+        </div>
+     </footer> 
+    </body>
+</html>
